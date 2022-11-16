@@ -1,0 +1,33 @@
+/* Max Font Size */
+@media screen and (min-width: 1640px) {
+    body {
+        font-size: 13.666666666666666px;
+    }
+}
+/* Container Max Width */
+.container {
+    max-width: 1640px;
+}
+/* Min Font Size */
+@media screen and (max-width: 991px) {
+    body {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .nav-menu {
+        padding-right: 1.25em;
+        padding-left: 10.25em;
+    }
+ }
+
+ @media (min-width: 320px) and (max-width: 767.98px) { 
+    
+    .nav-menu {
+        padding-right: 1.25em;
+        padding-left: 8.25em;
+    }
+ }
+
+
